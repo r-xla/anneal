@@ -1,0 +1,24 @@
+Package: anneal
+Title: Optimizers for the Anvil Ecosystem
+Version: 0.1.0.9000
+Authors@R: c(
+    person("Sebastian", "Fischer", , "seb.fischer@tutamail.com", role = c("cre", "aut"),
+           comment = c(ORCID = "https://orcid.org/0000-0002-9609-3197"))
+  )
+Description: Functional optimizers for use with the anvil code transformation
+    framework. Provides optimizer abstractions and implementations (SGD, etc.)
+    that work with immutable array state.
+License: MIT + file LICENSE
+URL: https://github.com/r-xla/anneal
+BugReports: https://github.com/r-xla/anneal/issues
+Depends:
+    R (>= 4.2.0)
+Imports:
+    checkmate,
+    cli
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
